@@ -1,0 +1,403 @@
+TIM2_Init	APP\main_test.c	/^void TIM2_Init(void)$/;"	f
+main	APP\main_test.c	/^int main(void)$/;"	f
+LED_Init	HARDWARE\led.c	/^void LED_Init(void)$/;"	f
+LED0_OFF	HARDWARE\led.h	7;"	d
+LED0_ON	HARDWARE\led.h	6;"	d
+__LED_H	HARDWARE\led.h	2;"	d
+CLK_CCOR	HARDWARE\stm8s003.h	72;"	d
+CLK_CKDIVR	HARDWARE\stm8s003.h	66;"	d
+CLK_CMSR	HARDWARE\stm8s003.h	60;"	d
+CLK_CSSR	HARDWARE\stm8s003.h	70;"	d
+CLK_ECKRR	HARDWARE\stm8s003.h	58;"	d
+CLK_HSITRIMR	HARDWARE\stm8s003.h	76;"	d
+CLK_ICKR	HARDWARE\stm8s003.h	56;"	d
+CLK_PCKENR1	HARDWARE\stm8s003.h	68;"	d
+CLK_PCKENR2	HARDWARE\stm8s003.h	74;"	d
+CLK_SWCR	HARDWARE\stm8s003.h	64;"	d
+CLK_SWIMCCR	HARDWARE\stm8s003.h	78;"	d
+CLK_SWR	HARDWARE\stm8s003.h	62;"	d
+GPIO_OFST_CR1	HARDWARE\stm8s003.h	8;"	d
+GPIO_OFST_CR2	HARDWARE\stm8s003.h	9;"	d
+GPIO_OFST_DDR	HARDWARE\stm8s003.h	7;"	d
+GPIO_OFST_IDR	HARDWARE\stm8s003.h	6;"	d
+GPIO_OFST_ODR	HARDWARE\stm8s003.h	5;"	d
+GPIO_PORT_A	HARDWARE\stm8s003.h	11;"	d
+GPIO_PORT_B	HARDWARE\stm8s003.h	12;"	d
+GPIO_PORT_C	HARDWARE\stm8s003.h	13;"	d
+GPIO_PORT_D	HARDWARE\stm8s003.h	14;"	d
+GPIO_PORT_E	HARDWARE\stm8s003.h	15;"	d
+GPIO_PORT_F	HARDWARE\stm8s003.h	16;"	d
+PA_CR1	HARDWARE\stm8s003.h	21;"	d
+PA_CR2	HARDWARE\stm8s003.h	22;"	d
+PA_DDR	HARDWARE\stm8s003.h	20;"	d
+PA_IDR	HARDWARE\stm8s003.h	19;"	d
+PA_ODR	HARDWARE\stm8s003.h	18;"	d
+PB_CR1	HARDWARE\stm8s003.h	27;"	d
+PB_CR2	HARDWARE\stm8s003.h	28;"	d
+PB_DDR	HARDWARE\stm8s003.h	26;"	d
+PB_IDR	HARDWARE\stm8s003.h	25;"	d
+PB_ODR	HARDWARE\stm8s003.h	24;"	d
+PC_CR1	HARDWARE\stm8s003.h	33;"	d
+PC_CR2	HARDWARE\stm8s003.h	34;"	d
+PC_DDR	HARDWARE\stm8s003.h	32;"	d
+PC_IDR	HARDWARE\stm8s003.h	31;"	d
+PC_ODR	HARDWARE\stm8s003.h	30;"	d
+PD_CR1	HARDWARE\stm8s003.h	39;"	d
+PD_CR2	HARDWARE\stm8s003.h	40;"	d
+PD_DDR	HARDWARE\stm8s003.h	38;"	d
+PD_IDR	HARDWARE\stm8s003.h	37;"	d
+PD_ODR	HARDWARE\stm8s003.h	36;"	d
+PE_CR1	HARDWARE\stm8s003.h	45;"	d
+PE_CR2	HARDWARE\stm8s003.h	46;"	d
+PE_DDR	HARDWARE\stm8s003.h	44;"	d
+PE_IDR	HARDWARE\stm8s003.h	43;"	d
+PE_ODR	HARDWARE\stm8s003.h	42;"	d
+PF_CR1	HARDWARE\stm8s003.h	51;"	d
+PF_CR2	HARDWARE\stm8s003.h	52;"	d
+PF_DDR	HARDWARE\stm8s003.h	50;"	d
+PF_IDR	HARDWARE\stm8s003.h	49;"	d
+PF_ODR	HARDWARE\stm8s003.h	48;"	d
+TIM1_ARRH	HARDWARE\stm8s003.h	155;"	d
+TIM1_ARRL	HARDWARE\stm8s003.h	156;"	d
+TIM1_BKR	HARDWARE\stm8s003.h	166;"	d
+TIM1_CCER1	HARDWARE\stm8s003.h	149;"	d
+TIM1_CCER2	HARDWARE\stm8s003.h	150;"	d
+TIM1_CCMR1	HARDWARE\stm8s003.h	145;"	d
+TIM1_CCMR2	HARDWARE\stm8s003.h	146;"	d
+TIM1_CCMR3	HARDWARE\stm8s003.h	147;"	d
+TIM1_CCMR4	HARDWARE\stm8s003.h	148;"	d
+TIM1_CCR1H	HARDWARE\stm8s003.h	158;"	d
+TIM1_CCR1L	HARDWARE\stm8s003.h	159;"	d
+TIM1_CCR2H	HARDWARE\stm8s003.h	160;"	d
+TIM1_CCR2L	HARDWARE\stm8s003.h	161;"	d
+TIM1_CCR3H	HARDWARE\stm8s003.h	162;"	d
+TIM1_CCR3L	HARDWARE\stm8s003.h	163;"	d
+TIM1_CCR4H	HARDWARE\stm8s003.h	164;"	d
+TIM1_CCR4L	HARDWARE\stm8s003.h	165;"	d
+TIM1_CNTRH	HARDWARE\stm8s003.h	151;"	d
+TIM1_CNTRL	HARDWARE\stm8s003.h	152;"	d
+TIM1_CR1	HARDWARE\stm8s003.h	136;"	d
+TIM1_CR2	HARDWARE\stm8s003.h	137;"	d
+TIM1_DCR1	HARDWARE\stm8s003.h	169;"	d
+TIM1_DCR2	HARDWARE\stm8s003.h	170;"	d
+TIM1_DER	HARDWARE\stm8s003.h	140;"	d
+TIM1_DMA1R	HARDWARE\stm8s003.h	171;"	d
+TIM1_DTR	HARDWARE\stm8s003.h	167;"	d
+TIM1_EGR	HARDWARE\stm8s003.h	144;"	d
+TIM1_ETR	HARDWARE\stm8s003.h	139;"	d
+TIM1_IER	HARDWARE\stm8s003.h	141;"	d
+TIM1_OISR	HARDWARE\stm8s003.h	168;"	d
+TIM1_PSCRH	HARDWARE\stm8s003.h	153;"	d
+TIM1_PSCRL	HARDWARE\stm8s003.h	154;"	d
+TIM1_RCR	HARDWARE\stm8s003.h	157;"	d
+TIM1_SMCR	HARDWARE\stm8s003.h	138;"	d
+TIM1_SR1	HARDWARE\stm8s003.h	142;"	d
+TIM1_SR2	HARDWARE\stm8s003.h	143;"	d
+TIM2_ARRH	HARDWARE\stm8s003.h	186;"	d
+TIM2_ARRL	HARDWARE\stm8s003.h	187;"	d
+TIM2_CCER1	HARDWARE\stm8s003.h	181;"	d
+TIM2_CCER2	HARDWARE\stm8s003.h	182;"	d
+TIM2_CCMR1	HARDWARE\stm8s003.h	178;"	d
+TIM2_CCMR2	HARDWARE\stm8s003.h	179;"	d
+TIM2_CCMR3	HARDWARE\stm8s003.h	180;"	d
+TIM2_CCR1H	HARDWARE\stm8s003.h	188;"	d
+TIM2_CCR1L	HARDWARE\stm8s003.h	189;"	d
+TIM2_CCR2H	HARDWARE\stm8s003.h	190;"	d
+TIM2_CCR2L	HARDWARE\stm8s003.h	191;"	d
+TIM2_CCR3H	HARDWARE\stm8s003.h	192;"	d
+TIM2_CCR3L	HARDWARE\stm8s003.h	193;"	d
+TIM2_CNTRH	HARDWARE\stm8s003.h	183;"	d
+TIM2_CNTRL	HARDWARE\stm8s003.h	184;"	d
+TIM2_CR1	HARDWARE\stm8s003.h	173;"	d
+TIM2_EGR	HARDWARE\stm8s003.h	177;"	d
+TIM2_IER	HARDWARE\stm8s003.h	174;"	d
+TIM2_PSCR	HARDWARE\stm8s003.h	185;"	d
+TIM2_SR1	HARDWARE\stm8s003.h	175;"	d
+TIM2_SR2	HARDWARE\stm8s003.h	176;"	d
+TIM_CR1_APRE	HARDWARE\stm8s003.h	206;"	d
+TIM_CR1_CEN	HARDWARE\stm8s003.h	213;"	d
+TIM_CR1_CMSH	HARDWARE\stm8s003.h	207;"	d
+TIM_CR1_CMSL	HARDWARE\stm8s003.h	208;"	d
+TIM_CR1_DIR	HARDWARE\stm8s003.h	209;"	d
+TIM_CR1_OPM	HARDWARE\stm8s003.h	210;"	d
+TIM_CR1_UDIS	HARDWARE\stm8s003.h	212;"	d
+TIM_CR1_URS	HARDWARE\stm8s003.h	211;"	d
+TIM_IER_BIE	HARDWARE\stm8s003.h	196;"	d
+TIM_IER_CC1IE	HARDWARE\stm8s003.h	202;"	d
+TIM_IER_CC2IE	HARDWARE\stm8s003.h	201;"	d
+TIM_IER_CC3IE	HARDWARE\stm8s003.h	200;"	d
+TIM_IER_CC4IE	HARDWARE\stm8s003.h	199;"	d
+TIM_IER_COMIE	HARDWARE\stm8s003.h	198;"	d
+TIM_IER_TIE	HARDWARE\stm8s003.h	197;"	d
+TIM_IER_UIE	HARDWARE\stm8s003.h	203;"	d
+TIM_SR1_BIF	HARDWARE\stm8s003.h	216;"	d
+TIM_SR1_CC1IF	HARDWARE\stm8s003.h	222;"	d
+TIM_SR1_CC2IF	HARDWARE\stm8s003.h	221;"	d
+TIM_SR1_CC3IF	HARDWARE\stm8s003.h	220;"	d
+TIM_SR1_CC4IF	HARDWARE\stm8s003.h	219;"	d
+TIM_SR1_COMIF	HARDWARE\stm8s003.h	218;"	d
+TIM_SR1_TIF	HARDWARE\stm8s003.h	217;"	d
+TIM_SR1_UIF	HARDWARE\stm8s003.h	223;"	d
+UART1_BRR1	HARDWARE\stm8s003.h	86;"	d
+UART1_BRR2	HARDWARE\stm8s003.h	87;"	d
+UART1_CR1	HARDWARE\stm8s003.h	88;"	d
+UART1_CR2	HARDWARE\stm8s003.h	89;"	d
+UART1_CR3	HARDWARE\stm8s003.h	90;"	d
+UART1_CR4	HARDWARE\stm8s003.h	91;"	d
+UART1_CR5	HARDWARE\stm8s003.h	92;"	d
+UART1_DR	HARDWARE\stm8s003.h	85;"	d
+UART1_GTR	HARDWARE\stm8s003.h	93;"	d
+UART1_PSCR	HARDWARE\stm8s003.h	94;"	d
+UART1_SR	HARDWARE\stm8s003.h	84;"	d
+UART_CR1_M	HARDWARE\stm8s003.h	100;"	d
+UART_CR1_PCEN	HARDWARE\stm8s003.h	102;"	d
+UART_CR1_PIEN	HARDWARE\stm8s003.h	104;"	d
+UART_CR1_PS	HARDWARE\stm8s003.h	103;"	d
+UART_CR1_R8	HARDWARE\stm8s003.h	97;"	d
+UART_CR1_T8	HARDWARE\stm8s003.h	98;"	d
+UART_CR1_UARTD	HARDWARE\stm8s003.h	99;"	d
+UART_CR1_WAKE	HARDWARE\stm8s003.h	101;"	d
+UART_CR2_ILIEN	HARDWARE\stm8s003.h	110;"	d
+UART_CR2_REN	HARDWARE\stm8s003.h	112;"	d
+UART_CR2_RIEN	HARDWARE\stm8s003.h	109;"	d
+UART_CR2_RWU	HARDWARE\stm8s003.h	113;"	d
+UART_CR2_SBK	HARDWARE\stm8s003.h	114;"	d
+UART_CR2_TCIEN	HARDWARE\stm8s003.h	108;"	d
+UART_CR2_TEN	HARDWARE\stm8s003.h	111;"	d
+UART_CR2_TIEN	HARDWARE\stm8s003.h	107;"	d
+UART_CR3_CLKEN	HARDWARE\stm8s003.h	120;"	d
+UART_CR3_CPHA	HARDWARE\stm8s003.h	122;"	d
+UART_CR3_CPOL	HARDWARE\stm8s003.h	121;"	d
+UART_CR3_LBCL	HARDWARE\stm8s003.h	123;"	d
+UART_CR3_LINEN	HARDWARE\stm8s003.h	117;"	d
+UART_CR3_STOP1	HARDWARE\stm8s003.h	119;"	d
+UART_CR3_STOP2	HARDWARE\stm8s003.h	118;"	d
+UART_SR_FE	HARDWARE\stm8s003.h	132;"	d
+UART_SR_IDLE	HARDWARE\stm8s003.h	129;"	d
+UART_SR_NF	HARDWARE\stm8s003.h	131;"	d
+UART_SR_OR	HARDWARE\stm8s003.h	130;"	d
+UART_SR_PE	HARDWARE\stm8s003.h	133;"	d
+UART_SR_RXNE	HARDWARE\stm8s003.h	128;"	d
+UART_SR_TC	HARDWARE\stm8s003.h	127;"	d
+UART_SR_TXE	HARDWARE\stm8s003.h	126;"	d
+__STM8S003_H	HARDWARE\stm8s003.h	2;"	d
+Uart_Init	HARDWARE\uart.c	/^void Uart_Init(uint32 bound)$/;"	f
+Uart_Printf	HARDWARE\uart.c	/^void Uart_Printf(char *format, ...)$/;"	f
+Uart_Puts	HARDWARE\uart.c	/^void Uart_Puts(char *string)$/;"	f
+Uart_Transmit	HARDWARE\uart.c	/^void Uart_Transmit(unsigned char data)$/;"	f
+__UART_H	HARDWARE\uart.h	2;"	d
+_LED_Init	OBJ\led.asm	/^_LED_Init:$/;"	l
+_osal_init_system	OBJ\osal.asm	/^_osal_init_system:$/;"	l
+_osal_start_system	OBJ\osal.asm	/^_osal_start_system:$/;"	l
+_osalFindTask	OBJ\osal_event.asm	/^_osalFindTask:$/;"	l
+_osalNextActiveTask	OBJ\osal_event.asm	/^_osalNextActiveTask:$/;"	l
+_osal_Task_init	OBJ\osal_event.asm	/^_osal_Task_init:$/;"	l
+_osal_add_Task	OBJ\osal_event.asm	/^_osal_add_Task:$/;"	l
+_osal_clear_event	OBJ\osal_event.asm	/^_osal_clear_event:$/;"	l
+_osal_init_TaskHead	OBJ\osal_event.asm	/^_osal_init_TaskHead:$/;"	l
+_osal_set_event	OBJ\osal_event.asm	/^_osal_set_event:$/;"	l
+__interrupt_vect	OBJ\osal_main.asm	/^__interrupt_vect:$/;"	l
+__sdcc_gs_init_startup	OBJ\osal_main.asm	/^__sdcc_gs_init_startup:$/;"	l
+__sdcc_init_data	OBJ\osal_main.asm	/^__sdcc_init_data:$/;"	l
+__sdcc_program_startup	OBJ\osal_main.asm	/^__sdcc_program_startup:$/;"	l
+__start__stack	OBJ\osal_main.asm	/^__start__stack:$/;"	l
+_main	OBJ\osal_main.asm	/^_main:$/;"	l
+__theHeap	OBJ\osal_memory.asm	/^__theHeap:$/;"	l
+__xinit__ready	OBJ\osal_memory.asm	/^__xinit__ready:$/;"	l
+__xinit__theHeap	OBJ\osal_memory.asm	/^__xinit__theHeap:$/;"	l
+_ff1	OBJ\osal_memory.asm	/^_ff1:$/;"	l
+_ff2	OBJ\osal_memory.asm	/^_ff2:$/;"	l
+_osal_mem_alloc	OBJ\osal_memory.asm	/^_osal_mem_alloc:$/;"	l
+_osal_mem_free	OBJ\osal_memory.asm	/^_osal_mem_free:$/;"	l
+_osal_mem_init	OBJ\osal_memory.asm	/^_osal_mem_init:$/;"	l
+_osal_mem_kick	OBJ\osal_memory.asm	/^_osal_mem_kick:$/;"	l
+_ready	OBJ\osal_memory.asm	/^_ready:$/;"	l
+_theHeap	OBJ\osal_memory.asm	/^_theHeap:$/;"	l
+_osal_msg_allocate	OBJ\osal_msg.asm	/^_osal_msg_allocate:$/;"	l
+_osal_msg_deallocate	OBJ\osal_msg.asm	/^_osal_msg_deallocate:$/;"	l
+_osal_msg_dequeue	OBJ\osal_msg.asm	/^_osal_msg_dequeue:$/;"	l
+_osal_msg_enqueue	OBJ\osal_msg.asm	/^_osal_msg_enqueue:$/;"	l
+_osal_msg_enqueue_max	OBJ\osal_msg.asm	/^_osal_msg_enqueue_max:$/;"	l
+_osal_msg_extract	OBJ\osal_msg.asm	/^_osal_msg_extract:$/;"	l
+_osal_msg_find	OBJ\osal_msg.asm	/^_osal_msg_find:$/;"	l
+_osal_msg_push	OBJ\osal_msg.asm	/^_osal_msg_push:$/;"	l
+_osal_msg_receive	OBJ\osal_msg.asm	/^_osal_msg_receive:$/;"	l
+_osal_msg_send	OBJ\osal_msg.asm	/^_osal_msg_send:$/;"	l
+_osalAddTimer	OBJ\osal_timer.asm	/^_osalAddTimer:$/;"	l
+_osalDeleteTimer	OBJ\osal_timer.asm	/^_osalDeleteTimer:$/;"	l
+_osalFindTimer	OBJ\osal_timer.asm	/^_osalFindTimer:$/;"	l
+_osalTimerInit	OBJ\osal_timer.asm	/^_osalTimerInit:$/;"	l
+_osalTimerUpdate	OBJ\osal_timer.asm	/^_osalTimerUpdate:$/;"	l
+_osal_GetSystemClock	OBJ\osal_timer.asm	/^_osal_GetSystemClock:$/;"	l
+_osal_get_timeoutEx	OBJ\osal_timer.asm	/^_osal_get_timeoutEx:$/;"	l
+_osal_start_reload_timer	OBJ\osal_timer.asm	/^_osal_start_reload_timer:$/;"	l
+_osal_start_timerEx	OBJ\osal_timer.asm	/^_osal_start_timerEx:$/;"	l
+_osal_stop_timerEx	OBJ\osal_timer.asm	/^_osal_stop_timerEx:$/;"	l
+_osal_systemClock	OBJ\osal_timer.asm	/^_osal_systemClock:$/;"	l
+_osal_timer_activate	OBJ\osal_timer.asm	/^_osal_timer_activate:$/;"	l
+_osal_timer_hw_setup	OBJ\osal_timer.asm	/^_osal_timer_hw_setup:$/;"	l
+_osal_timer_num_active	OBJ\osal_timer.asm	/^_osal_timer_num_active:$/;"	l
+_osal_update_timers	OBJ\osal_timer.asm	/^_osal_update_timers:$/;"	l
+_Serial_Task_EventProcess	OBJ\serial_task.asm	/^_Serial_Task_EventProcess:$/;"	l
+_Serial_Task_EventProcess_dir_2_82	OBJ\serial_task.asm	/^_Serial_Task_EventProcess_dir_2_82:$/;"	l
+_Serial_Task_Init	OBJ\serial_task.asm	/^_Serial_Task_Init:$/;"	l
+___str_0	OBJ\serial_task.asm	/^___str_0:$/;"	l
+_OSAL_TIMER_TICKINIT	OBJ\timer.asm	/^_OSAL_TIMER_TICKINIT:$/;"	l
+_OSAL_TIMER_TICKSTART	OBJ\timer.asm	/^_OSAL_TIMER_TICKSTART:$/;"	l
+_OSAL_TIMER_TICKSTOP	OBJ\timer.asm	/^_OSAL_TIMER_TICKSTOP:$/;"	l
+_TIM2_UPDATE_IRQHandler	OBJ\timer.asm	/^_TIM2_UPDATE_IRQHandler:$/;"	l
+_UART_RXNE_IRQHandler	OBJ\uart.asm	/^_UART_RXNE_IRQHandler:$/;"	l
+_Uart_Init	OBJ\uart.asm	/^_Uart_Init:$/;"	l
+_Uart_Printf	OBJ\uart.asm	/^_Uart_Printf:$/;"	l
+_Uart_Puts	OBJ\uart.asm	/^_Uart_Puts:$/;"	l
+_Uart_Transmit	OBJ\uart.asm	/^_Uart_Transmit:$/;"	l
+main	OSAL\application\osal_main.c	/^void main(void)$/;"	f
+Serial_TaskID	OSAL\application\serial_task.c	/^uint8 Serial_TaskID;					\/\/系统串口通信任务ID$/;"	v
+Serial_Task_EventProcess	OSAL\application\serial_task.c	/^uint16 Serial_Task_EventProcess(uint8 task_id,uint16 task_event)$/;"	f
+Serial_Task_Init	OSAL\application\serial_task.c	/^void Serial_Task_Init(uint8 task_id)$/;"	f
+OSAL_TIMER_TICKINIT	OSAL\hal\timer.c	/^void OSAL_TIMER_TICKINIT(void)$/;"	f
+OSAL_TIMER_TICKSTART	OSAL\hal\timer.c	/^void OSAL_TIMER_TICKSTART(void )$/;"	f
+OSAL_TIMER_TICKSTOP	OSAL\hal\timer.c	/^void OSAL_TIMER_TICKSTOP(void )$/;"	f
+APPLICATION_H	OSAL\include\application.h	2;"	d
+LED_FLICKER	OSAL\include\application.h	30;"	d
+OSAL_PRINTF	OSAL\include\application.h	32;"	d
+PRINTF_STR	OSAL\include\application.h	29;"	d
+SYS_EVENT_MSG	OSAL\include\application.h	26;"	d
+Data_t	OSAL\include\osal.h	/^  uint8* Data_t;$/;"	m	struct:__anon3
+OSAL_H	OSAL\include\osal.h	2;"	d
+dest_id	OSAL\include\osal.h	/^  uint8  dest_id;$/;"	m	struct:__anon1
+event	OSAL\include\osal.h	/^  uint8 event;$/;"	m	struct:__anon2
+hdr	OSAL\include\osal.h	/^  osal_event_hdr_t hdr; $/;"	m	struct:__anon3
+len	OSAL\include\osal.h	/^  uint16 len;$/;"	m	struct:__anon1
+next	OSAL\include\osal.h	/^  void   *next;$/;"	m	struct:__anon1
+osal_event_hdr_t	OSAL\include\osal.h	/^} osal_event_hdr_t;$/;"	t	typeref:struct:__anon2
+osal_msg_hdr_t	OSAL\include\osal.h	/^} osal_msg_hdr_t;$/;"	t	typeref:struct:__anon1
+osal_msg_q_t	OSAL\include\osal.h	/^typedef void *osal_msg_q_t;$/;"	t
+osal_sys_msg_t	OSAL\include\osal.h	/^} osal_sys_msg_t;					\/\/默认系统消息结构体$/;"	t	typeref:struct:__anon3
+status	OSAL\include\osal.h	/^  uint8 status;$/;"	m	struct:__anon2
+OSALTaskREC	OSAL\include\osal_event.h	/^typedef struct OSALTaskREC$/;"	s
+OSAL_EVENT_H	OSAL\include\osal_event.h	2;"	d
+OsalTadkREC_t	OSAL\include\osal_event.h	/^} OsalTadkREC_t;$/;"	t	typeref:struct:OSALTaskREC
+events	OSAL\include\osal_event.h	/^  uint16               events;				\/\/任务事件$/;"	m	struct:OSALTaskREC
+next	OSAL\include\osal_event.h	/^  struct  OSALTaskREC  *next;$/;"	m	struct:OSALTaskREC	typeref:struct:OSALTaskREC::OSALTaskREC
+pTaskEventHandlerFn	OSAL\include\osal_event.h	/^typedef uint16 (*pTaskEventHandlerFn)(uint8 task_id,uint16 task_event);$/;"	t
+pTaskInitFn	OSAL\include\osal_event.h	/^typedef void (*pTaskInitFn)( uint8 task_id ); $/;"	t
+pfnEventProcessor	OSAL\include\osal_event.h	/^  pTaskEventHandlerFn  pfnEventProcessor;	\/\/任务事件处理函数指针$/;"	m	struct:OSALTaskREC
+pfnInit	OSAL\include\osal_event.h	/^  pTaskInitFn          pfnInit;				\/\/任务初始化函数指针$/;"	m	struct:OSALTaskREC
+taskID	OSAL\include\osal_event.h	/^  uint8                taskID;				\/\/任务ID$/;"	m	struct:OSALTaskREC
+taskPriority	OSAL\include\osal_event.h	/^  uint8                taskPriority;		\/\/任务优先级$/;"	m	struct:OSALTaskREC
+MAXMEMHEAP	OSAL\include\osal_memory.h	6;"	d
+OSALMEM_METRICS	OSAL\include\osal_memory.h	8;"	d
+OSALMEM_METRICS_H	OSAL\include\osal_memory.h	2;"	d
+OSAL_MSG_H	OSAL\include\osal_msg.h	2;"	d
+OSAL_MSG_ID	OSAL\include\osal_msg.h	9;"	d
+OSAL_MSG_NEXT	OSAL\include\osal_msg.h	8;"	d
+OSAL_TIMER_H	OSAL\include\osal_timer.h	2;"	d
+TIMER_DECR_TIME	OSAL\include\osal_timer.h	7;"	d
+TIMER_H	OSAL\include\timer.h	2;"	d
+ARRAY_NULL	OSAL\include\type.h	34;"	d
+BOOL	OSAL\include\type.h	/^typedef unsigned char             BOOL;$/;"	t
+CLI	OSAL\include\type.h	71;"	d
+CLOSE	OSAL\include\type.h	46;"	d
+ERROR	OSAL\include\type.h	66;"	d
+FALSE	OSAL\include\type.h	30;"	d
+HAL_DISABLE_INTERRUPTS	OSAL\include\type.h	75;"	d
+HAL_ENABLE_INTERRUPTS	OSAL\include\type.h	74;"	d
+HAL_ENTER_CRITICAL_SECTION	OSAL\include\type.h	78;"	d
+HAL_EXIT_CRITICAL_SECTION	OSAL\include\type.h	79;"	d
+HAL_INTERRUPTS_ARE_ENABLED	OSAL\include\type.h	76;"	d
+HIGH	OSAL\include\type.h	54;"	d
+INVALID_EVENT_ID	OSAL\include\type.h	10;"	d
+INVALID_MSG_POINTER	OSAL\include\type.h	9;"	d
+INVALID_TASK	OSAL\include\type.h	8;"	d
+LOW	OSAL\include\type.h	58;"	d
+MSG_BUFFER_NOT_AVAIL	OSAL\include\type.h	13;"	d
+NO_TIMER_AVAIL	OSAL\include\type.h	11;"	d
+NULL	OSAL\include\type.h	50;"	d
+OPEN	OSAL\include\type.h	42;"	d
+SEI	OSAL\include\type.h	72;"	d
+SUCCESS	OSAL\include\type.h	62;"	d
+TASK_NO_TASK	OSAL\include\type.h	12;"	d
+TRUE	OSAL\include\type.h	38;"	d
+TYPE_H	OSAL\include\type.h	2;"	d
+ZSUCCESS	OSAL\include\type.h	7;"	d
+byte	OSAL\include\type.h	/^typedef unsigned char             byte;$/;"	t
+halDataAlign_t	OSAL\include\type.h	/^typedef unsigned char             halDataAlign_t;$/;"	t
+int16	OSAL\include\type.h	/^typedef signed short              int16;$/;"	t
+int32	OSAL\include\type.h	/^typedef signed long               int32;$/;"	t
+int8	OSAL\include\type.h	/^typedef signed char               int8;$/;"	t
+uint16	OSAL\include\type.h	/^typedef unsigned short            uint16;$/;"	t
+uint32	OSAL\include\type.h	/^typedef unsigned long             uint32;$/;"	t
+uint8	OSAL\include\type.h	/^typedef unsigned char             uint8;$/;"	t
+osal_init_system	OSAL\osal\osal.c	/^uint8 osal_init_system( void )$/;"	f
+osal_qHead	OSAL\osal\osal.c	/^osal_msg_q_t osal_qHead;$/;"	v
+osal_start_system	OSAL\osal\osal.c	/^void osal_start_system( void )$/;"	f
+TaskActive	OSAL\osal\osal_event.c	/^OsalTadkREC_t *TaskActive;$/;"	v
+TaskHead	OSAL\osal\osal_event.c	/^OsalTadkREC_t *TaskHead;$/;"	v
+Task_id	OSAL\osal\osal_event.c	/^uint8 Task_id;				\/\/任务ID统计$/;"	v
+osalFindTask	OSAL\osal\osal_event.c	/^OsalTadkREC_t *osalFindTask( uint8 taskID )$/;"	f
+osalNextActiveTask	OSAL\osal\osal_event.c	/^OsalTadkREC_t *osalNextActiveTask( void )$/;"	f
+osal_Task_init	OSAL\osal\osal_event.c	/^void osal_Task_init(void)$/;"	f
+osal_add_Task	OSAL\osal\osal_event.c	/^void  osal_add_Task(pTaskInitFn pfnInit,$/;"	f
+osal_clear_event	OSAL\osal\osal_event.c	/^uint8 osal_clear_event( uint8 task_id, uint16 event_flag )$/;"	f
+osal_init_TaskHead	OSAL\osal\osal_event.c	/^void  osal_init_TaskHead( void )$/;"	f
+osal_set_event	OSAL\osal\osal_event.c	/^uint8 osal_set_event( byte task_id, uint16 event_flag )$/;"	f
+tasksCnt	OSAL\osal\osal_event.c	/^uint8 tasksCnt;				\/\/任务数量统计$/;"	v
+HDRSZ	OSAL\osal\osal_memory.c	50;"	d	file:
+OSALMEM_GUARD	OSAL\osal\osal_memory.c	21;"	d	file:
+OSALMEM_IN_USE	OSAL\osal\osal_memory.c	34;"	d	file:
+OSALMEM_MIN_BLKSZ	OSAL\osal\osal_memory.c	13;"	d	file:
+OSALMEM_READY	OSAL\osal\osal_memory.c	22;"	d	file:
+OSALMEM_SMALL_BLKSZ	OSAL\osal\osal_memory.c	17;"	d	file:
+SMALLBLKHEAP	OSAL\osal\osal_memory.c	43;"	d	file:
+_theHeap	OSAL\osal\osal_memory.c	/^  static halDataAlign_t  _theHeap[ MAXMEMHEAP \/ sizeof( halDataAlign_t ) ];$/;"	v	file:
+ff1	OSAL\osal\osal_memory.c	/^static osalMemHdr_t *ff1;  \/\/ First free block in the small-block bucket.$/;"	v	file:
+ff2	OSAL\osal\osal_memory.c	/^static osalMemHdr_t *ff2;  \/\/ First free block after the small-block bucket.$/;"	v	file:
+osalMemHdr_t	OSAL\osal\osal_memory.c	/^typedef uint16  osalMemHdr_t;$/;"	t	file:
+osal_mem_alloc	OSAL\osal\osal_memory.c	/^void *osal_mem_alloc(uint16 size )$/;"	f
+osal_mem_free	OSAL\osal\osal_memory.c	/^void osal_mem_free( void *ptr )$/;"	f
+osal_mem_init	OSAL\osal\osal_memory.c	/^void osal_mem_init( void )$/;"	f
+osal_mem_kick	OSAL\osal\osal_memory.c	/^void osal_mem_kick( void )$/;"	f
+ready	OSAL\osal\osal_memory.c	/^  static byte ready = 0;$/;"	v	file:
+theHeap	OSAL\osal\osal_memory.c	/^  static byte  *theHeap = (byte *)EXT_RAM_BEG;$/;"	v	file:
+theHeap	OSAL\osal\osal_memory.c	/^  static byte  *theHeap = (byte *)_theHeap;$/;"	v	file:
+osal_msg_allocate	OSAL\osal\osal_msg.c	/^uint8 * osal_msg_allocate( uint16 len )$/;"	f
+osal_msg_deallocate	OSAL\osal\osal_msg.c	/^uint8 osal_msg_deallocate( uint8 *msg_ptr )$/;"	f
+osal_msg_dequeue	OSAL\osal\osal_msg.c	/^void *osal_msg_dequeue( osal_msg_q_t *q_ptr )$/;"	f
+osal_msg_enqueue	OSAL\osal\osal_msg.c	/^void osal_msg_enqueue( osal_msg_q_t *q_ptr, void *msg_ptr )$/;"	f
+osal_msg_enqueue_max	OSAL\osal\osal_msg.c	/^uint8 osal_msg_enqueue_max( osal_msg_q_t *q_ptr, void *msg_ptr, uint8 max )$/;"	f
+osal_msg_extract	OSAL\osal\osal_msg.c	/^void osal_msg_extract( osal_msg_q_t *q_ptr, void *msg_ptr, void *prev_ptr )$/;"	f
+osal_msg_find	OSAL\osal\osal_msg.c	/^osal_event_hdr_t *osal_msg_find(uint8 task_id, uint8 event)$/;"	f
+osal_msg_push	OSAL\osal\osal_msg.c	/^void osal_msg_push( osal_msg_q_t *q_ptr, void *msg_ptr )$/;"	f
+osal_msg_receive	OSAL\osal\osal_msg.c	/^uint8 *osal_msg_receive( uint8 task_id )$/;"	f
+osal_msg_send	OSAL\osal\osal_msg.c	/^uint8 osal_msg_send( uint8 destination_task, uint8 *msg_ptr )$/;"	f
+event_flag	OSAL\osal\osal_timer.c	/^  uint16 event_flag;        \/\/定时事件，定时时间减完产生任务事件$/;"	m	struct:__anon4	file:
+next	OSAL\osal\osal_timer.c	/^  void   *next;$/;"	m	struct:__anon4	file:
+osalAddTimer	OSAL\osal\osal_timer.c	/^osalTimerRec_t * osalAddTimer( uint8 task_id, uint16 event_flag, uint16 timeout )$/;"	f
+osalDeleteTimer	OSAL\osal\osal_timer.c	/^void osalDeleteTimer( osalTimerRec_t *rmTimer )$/;"	f
+osalFindTimer	OSAL\osal\osal_timer.c	/^osalTimerRec_t *osalFindTimer( uint8 task_id, uint16 event_flag )$/;"	f
+osalTimerInit	OSAL\osal\osal_timer.c	/^void osalTimerInit( void )$/;"	f
+osalTimerRec_t	OSAL\osal\osal_timer.c	/^} osalTimerRec_t;           \/\/任务定时器，链表结构$/;"	t	typeref:struct:__anon4	file:
+osalTimerUpdate	OSAL\osal\osal_timer.c	/^void osalTimerUpdate( uint16 updateTime )$/;"	f
+osal_GetSystemClock	OSAL\osal\osal_timer.c	/^uint32 osal_GetSystemClock( void )$/;"	f
+osal_get_timeoutEx	OSAL\osal\osal_timer.c	/^uint16 osal_get_timeoutEx( uint8 task_id, uint16 event_id )$/;"	f
+osal_start_reload_timer	OSAL\osal\osal_timer.c	/^uint8 osal_start_reload_timer( uint8 taskID, uint16 event_id, uint16 timeout_value )$/;"	f
+osal_start_timerEx	OSAL\osal\osal_timer.c	/^uint8 osal_start_timerEx( uint8 taskID, uint16 event_id, uint16 timeout_value )$/;"	f
+osal_stop_timerEx	OSAL\osal\osal_timer.c	/^uint8 osal_stop_timerEx( uint8 task_id, uint16 event_id )$/;"	f
+osal_systemClock	OSAL\osal\osal_timer.c	/^static uint32 osal_systemClock;   \/\/记录系统时钟$/;"	v	file:
+osal_timer_activate	OSAL\osal\osal_timer.c	/^void osal_timer_activate( uint8 turn_on )$/;"	f
+osal_timer_hw_setup	OSAL\osal\osal_timer.c	/^void osal_timer_hw_setup( uint8 turn_on )$/;"	f
+osal_timer_num_active	OSAL\osal\osal_timer.c	/^uint8 osal_timer_num_active( void )$/;"	f
+osal_update_timers	OSAL\osal\osal_timer.c	/^void osal_update_timers( void )$/;"	f
+reloadTimeout	OSAL\osal\osal_timer.c	/^  uint16 reloadTimeout;     \/\/重装定时时间$/;"	m	struct:__anon4	file:
+task_id	OSAL\osal\osal_timer.c	/^  uint8  task_id;           \/\/响应的任务ID$/;"	m	struct:__anon4	file:
+timeout	OSAL\osal\osal_timer.c	/^  uint16 timeout;           \/\/定时时间，每过一个系统时钟会自减$/;"	m	struct:__anon4	file:
+timerActive	OSAL\osal\osal_timer.c	/^uint8   timerActive;        \/\/标识硬件定时器是否运行$/;"	v
+timerHead	OSAL\osal\osal_timer.c	/^osalTimerRec_t  *timerHead; \/\/任务定时器链表头指针$/;"	v
+tmr_decr_time	OSAL\osal\osal_timer.c	/^uint8   tmr_decr_time;      \/\/任务定时器更新时自减的数值单位$/;"	v
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
