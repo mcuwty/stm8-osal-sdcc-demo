@@ -56,8 +56,8 @@ C_DEP			= $(patsubst %.$(EXT), $(OBJ_DIR)/%.d,$(C_SRC_NODIR))
 .PHONY: all clean rebuild flash test ctags space
 
 all:$(C_OBJ)
-	$(CC) $(INC_FLAGS) $(CFLAGS) $(LFLAGS) $(C_OBJ) -o $(OBJ_DIR)/$(TARGET).ihx
-	grep REL,CON $(OBJ_DIR)/$(TARGET).map
+	@$(CC) $(INC_FLAGS) $(CFLAGS) $(LFLAGS) $(C_OBJ) -o $(OBJ_DIR)/$(TARGET).ihx
+	@grep REL,CON $(OBJ_DIR)/$(TARGET).map
 # $(CC) $(INC_FLAGS) $(CFLAGS) $(LFLAGS) $(wildcard $(OBJ_DIR)/*.rel) -o $(OBJ_DIR)/$(TARGET).ihx
 	
 #静态模式
@@ -65,11 +65,13 @@ all:$(C_OBJ)
 #	$(CC) -c $(CFLAGS) -o $@ $<
 
 $(OBJ_DIR)/%.rel:%.$(EXT)
+	@mkdir -p OBJ
 	@echo "building $<"
-	$(CC) -c $(CFLAGS) $(INC_FLAGS) -o $@ $<
+	@$(CC) -c $(CFLAGS) $(INC_FLAGS) -o $@ $<
 
 -include $(C_DEP)
 $(OBJ_DIR)/%.d:%.$(EXT)
+	@mkdir -p OBJ
 	@echo "making $@"
 	@set -e;rm -f $@;$(CC) -MM $(CFLAGS) $(INC_FLAGS) $< > $@.$$$$;sed 's,\($*\)\.rel[ :]*,$(OBJ_DIR)/\1.rel $(OBJ_DIR)/\1.d:,g' < $@.$$$$ > $@;rm -f $@.$$$$
 
